@@ -4,7 +4,7 @@
 
 built for the **Reimagine Hackathon**.
 
-![Zen Mode Demo](./src/assets/zen-demo.png) _(Note: Add a screenshot here)_
+![Normal Mode](./src/assets/normal-mode.png)
 
 ## 🚀 The Problem
 
@@ -20,6 +20,8 @@ We didn't just hide elements; we created a **Hybrid Interface** that adapts to y
 
 ### 1. 🌓 Hybrid Player Modes
 
+![Zen Mode](./src/assets/zen-mode.png)
+
 The app features two distinct states:
 
 - **Entertainment Mode (Default)**: Behaves like standard YouTube. Comments, recommendations, and socials are visible.
@@ -30,6 +32,7 @@ The app features two distinct states:
 
 ### 2. 👁️ "Spoiler Curtain" UI
 
+_(See Zen Mode above: Thumbnails are blurred, Shorts hidden)_
 In Zen Mode, visual noise is strictly controlled:
 
 - **Blurred Thumbnails**: All video thumbnails are blurred to prevent visual hook/clickbait.
@@ -38,6 +41,7 @@ In Zen Mode, visual noise is strictly controlled:
 
 ### 3. 🎯 Focus Sessions & Guardrails
 
+![Focus Wizard](./src/assets/focus-wizard.png)
 Don't just watch—set an intent.
 
 - **Focus Wizard**: Before entering Zen Mode, you are prompted: _"What is your goal?"_ (e.g., "Learn React Hooks").
@@ -45,6 +49,7 @@ Don't just watch—set an intent.
 
 ### 4. 🍅 Integrated Pomodoro
 
+![Lecture Hall](./src/assets/lecture-hall.png)
 The Lecture Hall Player includes a built-in study timer.
 
 - **Customizable Duration**: Set your session length (25m, 50m, etc.).
